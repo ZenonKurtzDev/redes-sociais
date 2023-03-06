@@ -43,3 +43,10 @@ iframe#tela{
     width:267px;/*largura*/
     height:470px; /*altuta*/
 }
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;/*Deixa redondo as imagens */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
