@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@Meida only screen and (min-with:1024px);
 
 *{
     margin: 0px;
