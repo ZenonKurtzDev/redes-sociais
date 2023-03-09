@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media only screen and (min-with:1024px){
+
     
 
     *{
@@ -65,7 +65,7 @@
         transition: transform .3s; border: 1s;
     }
 
-}
+
 
 
 
