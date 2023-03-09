@@ -1,69 +1,72 @@
 @charset "UTF-8";
 @Media only screen and (min-with:1024px){
     
-}
 
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-
-}
-
-body{
-    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
-    background-size: cover;
-    background-attachment: fixed;
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
     
-}
-
-main{
-    height: 100vh;
-    position: relative;
+    html, body{
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
     
+    }
+    
+    body{
+        background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    
+    main{
+        height: 100vh;
+        position: relative;
+        
+    }
+    
+    section#telefone{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 627px;
+        width: 311px;
+        background:  url(../imagens/frame-iphone.png)no-repeat;
+    }
+    
+    iframe#tela{
+        position: relative;
+        top: 81px;
+        left: 22px;
+        width:267px;/*largura*/
+        height:470px; /*altuta*/
+    }
+    
+    section#redes-sociais{
+        text-align: right; /* rigth é Direita é left é esquerda*/
+    }
+    
+    section#redes-sociais img{
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;/*Deixa redondo as imagens */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+        box-sizing: border-box;
+    }
+    
+    section#redes-sociais img:hover{
+        border: 2px solid rgba(255, 255, 255, 0.842);
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568);
+        transition: transform .3s; border: 1s;
+    }
+
 }
 
-section#telefone{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 627px;
-    width: 311px;
-    background:  url(../imagens/frame-iphone.png)no-repeat;
-}
 
-iframe#tela{
-    position: relative;
-    top: 81px;
-    left: 22px;
-    width:267px;/*largura*/
-    height:470px; /*altuta*/
-}
-
-section#redes-sociais{
-    text-align: right; /* rigth é Direita é left é esquerda*/
-}
-
-section#redes-sociais img{
-    width: 50px;
-    margin: 10px;
-    border-radius: 50%;/*Deixa redondo as imagens */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-    box-sizing: border-box;
-}
-
-section#redes-sociais img:hover{
-    border: 2px solid rgba(255, 255, 255, 0.842);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568);
-    transition: transform .3s; border: 1s;
-}
 
 
